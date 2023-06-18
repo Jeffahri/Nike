@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(17, 17, 17);
+    overflow-x: hidden;
+}
+section .logo{
+    width: 10rem;
+    height: 6rem;
+    margin: 10px;
+}
+section .logo2{
+    width: 97.5%;
+    height: 100%;
+    margin: 15px;
+    border: 3px;
+    border-style: groove;
+    border-color: rgb(17, 17, 17);
+}
+section .container{
+    display: flex;
+}
+section .container header{
+    color: white;
+    margin-top: 2rem;
+}
+section li{
+    float: left;
+    width: 16%;
+    margin: 3px;
+    font-weight: 700;
+}
+section nav ul{
+    overflow: hidden;
+    list-style-type: none;
+    background: rgb(56, 46, 46);
+    margin: 15px;
+    border: 3px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+section nav li a{ 
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
+}
+section nav li:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+section .nav2{
+    width: 65%;
+}
+section .nav2 .li2{
+    width: 100%;
+}
+.kyrie6{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    box-shadow: 5px 5px 20px rgb(80, 33, 13);
+}
+section .content{
+    display: flex;
+    width: 90%;
+}
+section .content h3{
+    color:white;
+}
+section .content p{
+    color: white;
+    margin-top: 5px;
+}
+main{
+    display: flex;
+}
+.kyriesize{
+    height: 200px;
+    width: 150px;
+    border-radius: 3px-;
+}
+.containers{
+    display: flex;
+}
+.cards{
+    height: 200px;
+    margin: 50px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+.intro{
+    height: 60px;
+    width: 150px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -63.2rem;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: .5s;
+}
+.containers h1{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.containers p{
+    margin: 10px;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+}
+.cards:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgb(80, 33, 13);
+}
+.cards:hover .intro{
+    height: 10rem;
+    bottom: -63.5rem;
+    background: rgb(27, 27, 27, .5);
+}
+.cards:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.cards:hover .kyriesize{
+    transform: scale(1.1) rotate(3deg);
+}
+.review{
+    color: white;
+    margin: 10px;
+    width: 90%;
+    text-align: center;
+}
+aside{
+    width: 30%;
+    margin-right: 60px;
+    margin-top: -80px;
+}
+.vid{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.nav3{
+    width: 300%;
+}
+.li3{
+    float: left;
+    width: 100%;
+    margin: 3px;
+    font-weight: 700;
+}
+.nav3 .ul3{
+    overflow: hidden;
+    list-style-type: none;
+    background: rgb(56, 46, 46);
+    margin: 5px;
+    border: 3px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+.nav3 .li3 a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
+}
+.nav3 .li3:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+#vid{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
